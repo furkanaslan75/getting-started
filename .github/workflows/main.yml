@@ -36,5 +36,10 @@ jobs:
             name: getting-started-github
             location: 'west europe'
             ports: '3000'
+            azure-file-volume-share-name: 'furkanfileshare'
+            azure-file-volume-account-name: 'furkanstorage2'
+            azure-file-volume-account-key: 'ncj08q+j+uPBrAeJhlxBrmrU0KD07l5MtHEsK3uHtnqCbplJVSWLYK6V4IsiRx+v+mDy7g9Jy+aU+ASteX22dQ=='
+            azure-file-volume-mount-path: '/etc/todos'
+            
             
             
